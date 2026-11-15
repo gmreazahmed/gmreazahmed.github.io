@@ -1,44 +1,39 @@
-# GM REAZ — Digital Command Center
+# GM REAZ — Personal Digital Office
 
-A single-page personal portfolio for GM Reaz Ahmed, built with vanilla HTML, CSS and JavaScript for GitHub Pages.
+A distinctive, responsive personal brand website for GM Reaz Ahmed, built with semantic HTML, CSS and vanilla JavaScript for GitHub Pages.
+
+## Website structure
+- Home — editorial identity-led introduction
+- About — professional introduction and interactive profile terminal
+- Services — Web Development, Website Design & Build, SEO, Digital Marketing
+- Contact — phone, email, social links, downloadable VCF and print profile
+
+The site intentionally does not include a projects portfolio or a standalone skills section.
+
+## Visual direction
+- Near-black editorial canvas with a restrained signal-lime accent
+- Oversized typography, grid details and a personal portrait
+- Responsive navigation, scroll reveals and custom pointer detail
+- Command palette: Ctrl+K / Cmd+K
+- Reduced-motion support and print stylesheet
+
+## SEO included
+- Concise page title, meta description and canonical URL
+- Robots directives, XML sitemap and favicon
+- Open Graph and X/Twitter preview metadata with custom 1200×630 artwork
+- Schema.org WebSite and Person structured data
+- Existing Google Search Console verification meta tag retained
 
 ## Deploy to GitHub Pages
 1. Extract this ZIP.
-2. Open the repository `gmreazahmed.github.io` on GitHub.
-3. Replace the old `index.html` and upload `portrait.jpg` (keep both in the repository root).
-4. Commit the changes to the `main` branch.
-5. In **Settings → Pages**, select **Deploy from a branch**, branch `main`, folder `/ (root)` if it is not already selected.
-6. Wait for GitHub Pages to publish, then visit https://gmreazahmed.github.io/.
+2. Replace the repository root files with all files in this ZIP.
+3. Commit the changes to the `main` branch.
+4. In GitHub repository **Settings → Pages**, confirm deployment from `main` and `/ (root)`.
+5. Wait for the deployment, then open https://gmreazahmed.github.io/.
 
-## Included
-- Responsive black-and-white portfolio
-- About, capabilities, projects, services and contact sections
-- Interactive profile terminal
-- Ctrl+K / Cmd+K command palette
-- Downloadable VCF contact card
-- Print-friendly layout
-- Scroll reveal, reduced-motion support and basic SEO/Open Graph metadata
+## After deployment
+- In Google Search Console, inspect `https://gmreazahmed.github.io/`.
+- Submit `https://gmreazahmed.github.io/sitemap.xml`.
+- Request indexing after the new version is live.
 
-## Notes
-- Rokto Data and E-commerce UI are shown as project showcases without invented external URLs.
-- Weather App and Todo List link to the supplied GitHub repositories.
-- The original portrait image and Google site-verification meta tag are preserved.
-
-
-## SEO additions
-- Search-friendly page title and meta description
-- Canonical URL and index/follow directives
-- Open Graph and X/Twitter social preview metadata
-- Custom 1200×630 social sharing image (`og-image.jpg`)
-- Person structured data (JSON-LD) using the supplied details
-- `robots.txt`, XML sitemap and SVG favicon
-- Existing Google Search Console verification token retained
-
-## After deployment: Google Search Console
-1. Open https://search.google.com/search-console/ and select the URL-prefix property `https://gmreazahmed.github.io/`.
-2. Verify ownership (the existing HTML meta verification token is retained in `index.html`).
-3. Open **Sitemaps**, submit `sitemap.xml`.
-4. Use **URL Inspection** for `https://gmreazahmed.github.io/` and request indexing after the deployment is live.
-5. Check the Page indexing and Core Web Vitals reports over time.
-
-Search ranking is not guaranteed by metadata alone. Keep project details accurate, add genuine project case studies, and earn relevant links over time.
+Google controls the final search-result title and site name; structured data and metadata are recommendations, not a guarantee of a specific display or ranking.
